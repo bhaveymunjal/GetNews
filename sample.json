@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Erin Hale",
+      "title": "India, Brazil among most dangerous places for activists: Report",
+      "description": "Business & Human Rights Resource Centre says it recorded more than 550 attacks on human rights defenders in 2022.",
+      "url": "http://www.aljazeera.com/economy/2023/5/3/india-brazil-among-most-dangerous-places-for-activists-report",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/05/2013-11-11T000000Z_1121589942_GM1E9BB0TNQ01_RTRMADP_3_BRAZIL-1683091005.jpg?resize=1920%2C1440",
+      "publishedAt": "2023-05-03T08:04:12Z",
+      "content": "Taipei, Taiwan India, Cambodia and the Philippines are among the most dangerous places in the world for human rights and labour activists with protests against corporate abuses often met with state-b… [+2849 chars]"
+    },
+    {
+      "source": { "id": "fox-news", "name": "Fox News" },
+      "author": "Christine Rousselle",
+      "title": "Woman claims she makes up to $5,000 a month from dumpster-diving, calls it a 'real-life treasure hunt'",
+      "description": "Other people's trash has turned into treasure: Two women have made a lucrative business of reselling discarded items they discover in dumpsters. They've even discovered luxury goods.",
+      "url": "https://www.foxnews.com/lifestyle/woman-makes-5000-month-dumpster-diving-calls-real-life-treasure-hunt",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/05/professional-fu-999236.jpg",
+      "publishedAt": "2023-05-03T01:49:17Z",
+      "content": "A Pennsylvania woman has turned dumpster diving into a lucrative business after discovering that authentic designer items are often tossed away. \r\nVeronica Taylor, 32, of Quakertown, Pennsyvlania, te… [+2679 chars]"
+    },
+    {
+      "source": { "id": "the-next-web", "name": "The Next Web" },
+      "author": "Linnea Ahlgren",
+      "title": "Transatlantic chip wars? UK needs to up its policy game, leading startup says",
+      "description": "While the UK is being labelled as “closed for business” and Rishi Sunak is playing Unicorn Kingdom in Silicon Valley, the British chip industry risks losing some of its strongest ...",
+      "url": "http://thenextweb.com/news/transatlantic-chip-war-uk-needs-up-policy-game-leading-startup-says",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F04%2Fshutterstock_1196754286.jpg&signature=4a30bc68d276a3d79da3cb235e9f857f",
+      "publishedAt": "2023-05-01T08:00:47Z",
+      "content": "While the UK is being labelled as closed for business and Rishi Sunak is playing Unicorn Kingdom in Silicon Valley, the British chip industry risks losing some of its strongest players due to a lack … [+3923 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Marshall Cohen",
+      "title": "Fox News settles with Dominion at the last second, averting defamation trial over its 2020 election lies | CNN Business",
+      "description": "The judge just announced in court that a settlement has been reached in the historic defamation case between Fox News and Dominion Voting Systems.",
+      "url": "http://us.cnn.com/2023/04/18/media/fox-dominion-settlement/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230418112020-02-delaware-fox-dominion-trial-court-exterior-0418.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-04-18T20:09:52Z",
+      "content": "Wilmington, DelawareCNN\r\n  — \r\nThe judge just announced in court that a settlement has been reached in the historic defamation case between Fox News and Dominion Voting Systems.\r\nThe parties have res… [+1861 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Eric Levenson,Marshall Cohen",
+      "title": "Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory | CNN Business",
+      "description": "The core of the defamation lawsuit filed by Dominion Voting Systems against Fox News are 20 specific broadcasts and tweets in which the voting company says Fox knowingly promoted lies, destroying its reputation.",
+      "url": "http://us.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230414161317-fox-news-headquarters-0412.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-04-17T16:01:11Z",
+      "content": "For all the interest in big-name witnesses and eye-opening private text messages, at the core of the defamation lawsuit filed by Dominion Voting Systems against Fox News are 20 specific broadcasts an… [+11179 chars]"
+    },
+    {
+      "source": { "id": "newsweek", "name": "Newsweek" },
+      "author": "Mark Davis",
+      "title": "Newsweek",
+      "description": "Newsweek provides in-depth analysis, news and opinion about international issues, technology, business, culture and politics.",
+      "url": "https://www.newsweek.com/",
+      "urlToImage": "https://d.newsweek.com/en/full/2202468/special-presidential-envoy-climate-john-kerry.jpg",
+      "publishedAt": "2023-03-01T12:07:28.8517009Z",
+      "content": null
+    },
+    {
+      "source": { "id": "financial-post", "name": "Financial Post" },
+      "author": "Financial Post",
+      "title": "Financial Post",
+      "description": "Stay up-to-date with the latest business trends and information on the Canadian economy, stock market and personal finance. Learn to save money, invest in the market, grow your wealth and advance your career with new skills.",
+      "url": "https://financialpost.com/category/personal-finance/business-essentials/",
+      "urlToImage": "https://dcs-static.gprod.postmedia.digital/12.2.3/websites/images/postmedia-image-fallback.png",
+      "publishedAt": "2022-11-13T00:37:35.7082248Z",
+      "content": null
+    },
+    {
+      "source": { "id": "financial-times", "name": "Financial Times" },
+      "author": null,
+      "title": "‘Money is no object’: Ghislaine Maxwell trial shines light on class divide",
+      "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+      "url": "https://www.ft.com/content/0b9d93da-1687-4eb1-bd53-0a84a1b40dff",
+      "urlToImage": null,
+      "publishedAt": "2021-12-14T06:22:29.1165883Z",
+      "content": "Keep abreast of significant corporate, financial and political developments around the world.\r\nStay informed and spot emerging risks and opportunities with independent global reporting, expert\r\ncomme… [+32 chars]"
+    },
+    {
+      "source": { "id": "financial-times", "name": "Financial Times" },
+      "author": null,
+      "title": "Need relief from the stress of screen time? There’s an app for that",
+      "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+      "url": "https://www.ft.com/content/221cf7c4-56e7-4c7e-b6c0-cc3737da0330",
+      "urlToImage": null,
+      "publishedAt": "2021-12-14T06:22:27.4295096Z",
+      "content": "Let our global subject matter experts broaden your perspective with timely insights and opinions you\r\ncant find anywhere else."
+    },
+    {
+      "source": { "id": "financial-post", "name": "Financial Post" },
+      "author": "Financial Post",
+      "title": "News",
+      "description": "Latest breaking business news &amp; headlines. Stay in touch with the latest happenings in Local and International organizations and financial sector.",
+      "url": "http://business.financialpost.com/category/news/",
+      "urlToImage": null,
+      "publishedAt": "2020-07-09T18:37:17.5638279Z",
+      "content": "Visit the Postmedia Brands page\r\n365 Bloor Street East, Toronto, Ontario, M4W 3L4\r\n© 2020 Financial Post, a division of Postmedia Network Inc. All rights reserved. Unauthorized distribution, transmis… [+41 chars]"
+    }
+  ]
+}
