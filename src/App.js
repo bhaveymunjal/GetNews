@@ -47,7 +47,7 @@ export default class App extends Component {
       <>
         {/* <div>Class Based Component</div> */}
         {/* <News category='sport' country = 'us'/> */}
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />
           <Switch>
             <Route exact path="/">
