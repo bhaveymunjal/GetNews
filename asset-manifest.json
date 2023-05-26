@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bhaveymunjal/GetNews/static/css/main.96163102.css",
+    "main.js": "/bhaveymunjal/GetNews/static/js/main.2741752f.js",
+    "static/js/787.4c026eef.chunk.js": "/bhaveymunjal/GetNews/static/js/787.4c026eef.chunk.js",
+    "static/media/loading.gif": "/bhaveymunjal/GetNews/static/media/loading.e1658f1b84de3a1fe498.gif",
+    "index.html": "/bhaveymunjal/GetNews/index.html",
+    "main.96163102.css.map": "/bhaveymunjal/GetNews/static/css/main.96163102.css.map",
+    "main.2741752f.js.map": "/bhaveymunjal/GetNews/static/js/main.2741752f.js.map",
+    "787.4c026eef.chunk.js.map": "/bhaveymunjal/GetNews/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96163102.css",
+    "static/js/main.2741752f.js"
+  ]
+}
