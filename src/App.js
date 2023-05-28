@@ -2,6 +2,7 @@ import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./Components/Navbar";
 import News from "./Components/News";
+import LoadingBar from 'react-top-loading-bar'
 import {
   BrowserRouter as Router,
   // Routes,
@@ -40,43 +41,55 @@ export default class App extends Component {
       
     // alert("Dark Mode");
   };
+  state = {
+    progress:0
+  }
+  setProgress = (progress)=>{
+    this.setState({
+      progress:progress
+    })
+  }
   render() {
     // const { chk } = this.state.chk;
     // const { mode } = this.state.mode;
     return (
       <>
         {/* <div>Class Based Component</div> */}
-        {/* <News category='sport' country = 'us'/> */}
+        {/* <News setProgress = {this.setProgress} category='sport' country = 'us'/> */}
         <Router basename={process.env.PUBLIC_URL}>
+          <LoadingBar
+            color='#f11946'
+            progress={this.state.progress}
+          />
           <Navbar chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />
           <Switch>
             <Route exact path="/">
               {" "}
-              <News key="general" category="general" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="general" category="general" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Business">
               {" "}
-              <News key="business" category="business" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="business" category="business" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Entertainment">
               {" "}
-              <News key="entertainment" category="entertainment" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="entertainment" category="entertainment" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Health">
               {" "}
-              <News key="health" category="health" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="health" category="health" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Science">
               {" "}
-              <News key="science" category="science" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="science" category="science" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Sports">
               {" "}
-              <News key="sport" category="sport" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="sport" category="sport" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
             <Route exact path="/Technology">
               {" "}
-              <News key="technology" category="technology" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
+              <News setProgress = {this.setProgress} key="technology" category="technology" chk={this.state.chk} toggleDarkMode={this.toggleDarkMode} mode={this.state.mode} />{" "}
             </Route>
           </Switch>
         </Router>

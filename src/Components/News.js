@@ -33,15 +33,19 @@ export class News extends Component {
   }
   // https://newsapi.org/v2/top-headlines/sources?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&pageSize=${this.props.pageSize}
   async componentDidMount() {
+    this.props.setProgress(10)
     let url = ` https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
+    this.props.setProgress(40)
     data = await data.json();
+    this.props.setProgress(60)
     this.setState({
       articles: data.articles,
       totalResults: data.totalResults,
       loading: false,
     });
+    this.props.setProgress(100)
     // document.title = `GetNews - ${this.props.category!=='general'?this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1):"Home"}`
   }
   handleNextClick = async () => {
