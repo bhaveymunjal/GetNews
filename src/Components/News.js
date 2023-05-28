@@ -18,14 +18,15 @@ export class News extends Component {
     apiKey:PropTypes.string
   }
   articles=[];
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     // console.log("constructor of news");  
     this.state = {
       articles: this.articles,
       loading: false,
       page:1
     };
+    document.title = `GetNews - ${this.props.category!=='general'?this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1):"Home"}`
   }
   // https://newsapi.org/v2/top-headlines/sources?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&pageSize=${this.props.pageSize}
   async componentDidMount() { 
@@ -37,7 +38,7 @@ export class News extends Component {
                     totalResults:data.totalResults,
                     loading:false
                   })
-    document.title = `GetNews - ${this.props.category!=='general'?this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1):"Home"}`
+    // document.title = `GetNews - ${this.props.category!=='general'?this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1):"Home"}`
    }
   handleNextClick = async ()=>{
     let url = ` https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
@@ -62,7 +63,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h2 style={{color:this.props.mode==='light'?'black':'white'}}>NewsMonkey - Top headlines</h2>
+        <h2 style={{color:this.props.mode==='light'?'black':'white'}}>Get News - Top {this.props.category!=='general'?this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1):"General"} headlines</h2>
         {this.state.loading && <Load/>}
         {!this.state.loading && <div className="row">
           {this.state.articles.map((element) => {
