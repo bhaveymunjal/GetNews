@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Get News
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to our news website! Here, you can stay updated with the latest news from around the country and explore top news stories in various categories. We have also implemented some exciting features to enhance your browsing experience, including an infinite scroll bar and a dark mode. Read on to learn more about how to navigate our website and make the most of its features.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. Top News Over the Country: Stay informed about the most important news stories happening across the country.
 
-### `npm start`
+2. Top News for Each Category: Explore top news stories in various categories, such as politics, sports, entertainment, technology, and more.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Infinite Scroll Bar: Effortlessly browse through an endless stream of news articles with our infinite scroll bar feature.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Dark Mode: Enable dark mode for a visually appealing browsing experience, particularly in low-light environments.
 
-### `npm test`
+Note: This project is not currently hosted on a live server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project utilizes a developer API that is designed to work only on the localhost environment. Therefore, it cannot be hosted on a live server. However, by following the steps above, you can easily run the project on your local machine and explore all its features.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow the steps below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: git clone https://github.com/bhaveymunjal/GetNews.git
+2. Navigate to the project directory: cd GetNews
+3. Install the necessary dependencies: npm install react
+4. Start the development server: npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your web browser and visit `http://localhost:3000` to access the news website.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Feedback and Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We value your feedback and are constantly working to improve our news website. If you encounter any issues, have suggestions for new features, or need support, please don't hesitate to reach out to our customer support team. You can contact us via email at support@example.com or through the "Contact Us" section on our website.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+Here are some screenshots of our news website:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope you enjoy staying informed with our comprehensive coverage, intuitive features, and a pleasant browsing experience. Thank you for choosing our news website!
