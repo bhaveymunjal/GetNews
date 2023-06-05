@@ -10,7 +10,7 @@ export class News extends Component {
     country: "in",
     category: "general",
     pageSize: 8,
-    apiKey: "4bd6958537784aaeb945df0a5eb136ac",
+    apiKey: process.env.REACT_APP_NEWS_API,
   };
   static propTypes = {
     country: PropTypes.string,
@@ -64,11 +64,7 @@ export class News extends Component {
     });
   };
   handlePreviousClick = async () => {
-    let url = ` https://newsapi.org/v2/top-headlines?country=${
-      this.props.country
-    }&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${
-      this.state.page - 1
-    }&pageSize=${this.props.pageSize}`;
+    let url = ` https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     data = await data.json();
@@ -79,10 +75,8 @@ export class News extends Component {
     });
   };
   fetchMoreData = async () => {
-    // a fake async api call like which sends
-    // 20 more records in 1.5 secs
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     this.setState({ page: this.state.page + 1 });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     data = await data.json();
@@ -93,8 +87,8 @@ export class News extends Component {
     });
   };
   render() {
-    console.log(this.state.totalResults)
-    console.log(this.state.articles.length)
+    // console.log(this.state.totalResults)
+    // console.log(this.state.articles.length)
     return (
       <>
         <h2  className="text-center my-3" style={{ color: this.props.mode === "light" ? "black" : "white" }}>Get News - Top{" "}{this.props.category !== "general" ? this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1) : "General"}{" "}headlines</h2>
